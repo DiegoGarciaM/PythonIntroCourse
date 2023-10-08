@@ -25,8 +25,8 @@ Seccion 3:
 
 Seccion 4:
     Funciones
-    Valores de entrada y de salida
     Scope, el alcance de las variables
+    Ejemplo con funciones
 
 Seccion 5:
     Listas estaticas o tuplas
