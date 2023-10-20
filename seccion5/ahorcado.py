@@ -49,6 +49,15 @@ def get_letter():
     return ltr
 
 
+# Podemos crear una funcion para poner las letras en el lugar adecuado de la lista de guiones
+def fill_letters(letter_list, original_word, letter):
+    for index in range(len(letter_list)):
+        if letter == original_word[index]:
+            letter_list[index] = letter
+
+    return letter_list
+
+
 # Ahora podemos comenzar el ciclo principal del juego
 # El juego va a mostrar un mensaje de bienvenida, luego comenzara
 print("Welcome to the hangman game!\n******************\nLet's begin!")
@@ -57,10 +66,15 @@ hidden_word = get_hidden_word(word)  # conseguimos la palabra como guiones
 
 while attempts > 0:
     # Vamos a comenzar la ronda poniendo el estado actual en pantalla y pidiendo una letra
-    print(f"The word is: {hidden_word}")
+    print(f"\n\nThe word is: {hidden_word}")
     letter = get_letter()
     if letter not in word:
         attempts -= 1
         print(f"Wrong!, you have {attempts} left!")
     else:
         print("Correct!!!")
+        hidden_word = fill_letters(hidden_word, word, letter)
+
+
+# Podemos poner la ultima palabra en pantalla para que se vea cuando el jugador pierda o salga
+print(f"The last word was: {word}")
