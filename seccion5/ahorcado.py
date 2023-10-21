@@ -91,6 +91,7 @@ while attempts > 0:
             word = choose_word()
             hidden_word = get_hidden_word(word)
             attempts = 5
+            used_letters.clear()
             if word == 'USED_ALL_WORDS':
                 print('No more available words! You Win!!!')
                 break
