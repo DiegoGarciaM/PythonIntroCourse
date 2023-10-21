@@ -18,7 +18,12 @@ used_words = set()
 def choose_word():
     from palabrasAhorcado import words  # Podemos importar solo la variable que queremos
     from random import choice
-    return choice(words)
+    if len(used_words) == len(words):
+        return 'USED_ALL_WORDS'
+    random_word = choice(words)
+    while random_word in used_words:
+        random_word = choice(words)
+    return random_word
 
 
 # EL juego debe tomar la palabra, y ponerla como guiones, para eso podeos hacer otra funcion
@@ -74,6 +79,20 @@ while attempts > 0:
     else:
         print("Correct!!!")
         hidden_word = fill_letters(hidden_word, word, letter)
+        # Tenemos que revisar si la palabra ya termino
+        if '_' not in hidden_word:
+            used_words.add(word)
+            print(f"\n\nYou won this round! the word was: {word}")
+            # Podemos checar si el jugador quiere jugar otra ronda
+            another = input("Would you like to play another round? (y/n)").lower()
+            if another == 'n':
+                break
+            # Ahora podemos comenzar otra ronda, o ver si ya no hay palabras por usar
+            word = choose_word()
+            attempts = 5
+            if word == 'USED_ALL_WORDS':
+                print('No more available words! You Win!!!')
+                break
 
 
 # Podemos poner la ultima palabra en pantalla para que se vea cuando el jugador pierda o salga
