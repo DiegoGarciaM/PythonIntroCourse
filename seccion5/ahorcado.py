@@ -89,6 +89,7 @@ while attempts > 0:
                 break
             # Ahora podemos comenzar otra ronda, o ver si ya no hay palabras por usar
             word = choose_word()
+            hidden_word = get_hidden_word(word)
             attempts = 5
             if word == 'USED_ALL_WORDS':
                 print('No more available words! You Win!!!')
