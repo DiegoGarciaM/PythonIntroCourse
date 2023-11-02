@@ -14,33 +14,33 @@ Course Outline:
 Module 1: Introduction to Python
 
     Lesson 1: Getting Started with Python
-
-    Introduction to Python and its applications.
-    Setting up the Python development environment.
-    Your first Python program.
-    Example: Create a program that greets the user and asks for their name.
+    Introduction to software development. -> Voice over presentation
+    Introduction to Python and its applications. -> Voice over presentation
+    Setting up the Python development environment. -> Voice over presentation
+    Your first Python program. -> Screen capture
+        Example: Create a program that greets the user and asks for their name.
 
     Lesson 2: Variables and Data Types
 
-    Understanding variables and data types (int, float, string, bool).
-    Variable assignment and naming conventions.
-    Basic input and output.
-    Example: Build a simple calculator that performs basic arithmetic operations.
+    Understanding variables and data types (int, float, string, bool). -> Screen capture
+    Variable assignment and naming conventions.-> Screen capture
+    Basic input and output.-> Screen capture
+        Example: Build a simple calculator that performs basic arithmetic operations.
 
 Module 2: Control Flow and Logic
 
     Lesson 3: Conditional Statements
 
-    If statements and conditional logic.
-    Using comparison operators.
-    Nested conditions.
+    If statements and conditional logic.-> Screen capture
+    Using comparison operators.-> Screen capture
+    Nested conditions.-> Screen capture
     Example: Write a program that determines if a given number is even or odd.
 
     Lesson 4: Loops and Iteration
 
-    For loops and while loops.
-    Loop control statements (break and continue).
-    Practical loop examples.
+    For loops and while loops.-> Screen capture
+    Loop control statements (break and continue).-> Screen capture
+    Practical loop examples.-> Screen capture
     Example: Create a program that generates the Fibonacci sequence up to a given limit.
 
 Module 3: Data Structures
