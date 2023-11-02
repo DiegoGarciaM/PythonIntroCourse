@@ -1,8 +1,12 @@
 # Introduccion al desarrollo de software
 
 # Simplemente es el proceso de crear software, lo cual puede darse de muchas maneras
-# Podemos crear scripts sencillos para tareas sencillas, juegos, analizar datos,
+# Podemos crear scripts sencillos para tareas, juegos, analizar datos,
 # crear paginas web, servcios completos, APIs, programas de escritorio, etc.
+
+# Y que es el software? instrucciones para una computadora, eso es todo
+# Podemos escribir instrucciones para una computadora de muchas maneras, en muchos lenguajes
+# Y dependiendo de como lo hagamos, la computadora las lee y ejecuta de manera diferente
 
 # Al final se trata de crear y editar archivos que la computadora va a interpretar
 # Una vez que comprendemos eso, nos damos cuenta de que no importa mucho el lenguaje
