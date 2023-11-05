@@ -14,18 +14,17 @@ Course Outline:
 Module 1: Introduction to Python
 
     Lesson 1: Getting Started with Python
-    Introduction to software development. -> Voice over presentation
-    Introduction to Python and its applications. -> Voice over presentation
-    Setting up the Python development environment. -> Voice over presentation
-    Your first Python program. -> Screen capture
+
+    Introduction to software development.
+    Introduction to Python and its applications.
+    Setting up the Python development environment.
+    Your first Python program.
         Example: Create a program that greets the user and asks for their name.
 
     Lesson 2: Variables and Data Types
 
     Understanding variables and data types (int, float, string, bool). -> Screen capture
     Variable assignment and naming conventions.-> Screen capture
-    Basic input and output.-> Screen capture
-        Example: Build a simple calculator that performs basic arithmetic operations.
 
 Module 2: Control Flow and Logic
 
